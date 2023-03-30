@@ -1,7 +1,7 @@
 {
   "name": "curso_spa_vanilla",
   "version": "1.0.0",
-  "description": "",
+  "description": "single page aplication",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/ja54312/Curso_SPA_Vanilla.git"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
