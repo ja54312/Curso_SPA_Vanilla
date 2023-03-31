@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/ja54312/Curso_SPA_Vanilla/issues"
   },
-  "homepage": "https://github.com/ja54312/Curso_SPA_Vanilla#readme"
+  "homepage": "https://github.com/ja54312/Curso_SPA_Vanilla#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
 }
