@@ -4,7 +4,8 @@
   "description": "single page aplication",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,13 @@
   "homepage": "https://github.com/ja54312/Curso_SPA_Vanilla#readme",
   "devDependencies": {
     "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
     "babel-loader": "^9.1.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.77.0",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.13.1"
+    "webpack-dev-server": "^4.13.2"
   }
 }
